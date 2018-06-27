@@ -53,13 +53,14 @@ main: #简历主要内容，
     #- MySQL
     tags:
     - 熟练度 * 打分 / MAX 5
-    summary: HTML + CSS          **
-    summary: JavaScript          ****
-    summary: Vue                 ***
-    summary: ES-6                **
-    summary: Git + NPM           **
-    summary: Webpack             *
-    summary: MySQL               *
+    summary: 
+    - HTML + CSS          **
+    - JavaScript          ****
+    - Vue                 ***
+    - ES-6                **
+    - Git + NPM           **
+    - Webpack             *
+    - MySQL               *
     
   - title: 使用/了解
     summary: Java | Node | Koa | Radis | 
