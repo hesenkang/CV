@@ -75,9 +75,7 @@ main: #简历主要内容，
     tags:
     - 聚合支付
     summary: 工作总结
-    -(+*) 第一项 
-    -(+*) 第二项 
-    -(+*) 第三项
+    detail: Details can be collapsed in Chrome Safari.
     open: open
     #可以设置open默认展开
   - title: Job Title
