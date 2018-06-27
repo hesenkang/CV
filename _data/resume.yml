@@ -15,10 +15,10 @@ contact: #联系方式连接等3~5行
 - text: "17717370105"
   href: 'tel:17717370105'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
+- text: "博客"
   href: 'http://waukulele.com/blog'
   icon: 'icons/web.svg'
-- text: "GitHubID"
+- text: "hesenkang"
   href: 'https://github.com/hesenkang'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -28,10 +28,10 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 个人信息 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
+  - title: 基本信息
+    duration: "男 / 1996年 / 未婚 / 籍贯：湖北-蕲春 / 在上海工作3年"
     sub: 地点或学历
     detail: 专业或者简短说明
   - title: Your University
