@@ -54,13 +54,13 @@ main: #简历主要内容，
     tags:
     - 熟练度 * 打分 / MAX 5
     detail: 
-    - `*` HTML + CSS          **
-    - `*` JavaScript          ****
-    - `*` Vue                 ***
-    - `*` ES-6                **
-    - `*` Git + NPM           **
-    - `*` Webpack             *
-    - `*` MySQL               *
+    `*` HTML + CSS          **
+    `*` JavaScript          ****
+    `*` Vue                 ***
+    `*` ES-6                **
+    `*` Git + NPM           **
+    `*` Webpack             *
+    `*` MySQL               *
     
   - title: 使用/了解
     summary: Java | Node | Koa | Radis | 
