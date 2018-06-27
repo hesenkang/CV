@@ -33,10 +33,10 @@ main: #简历主要内容，
   - title: 基本信息
     duration: 于2011年来到上海，生活了8年
     sub: "Age 22"
-    detail: 男 / 1996年 / 未婚 / 籍贯：湖北-蕲春 / 在上海工作3年
+    detail: 男 / 1996年 / 未婚 / 籍贯：湖北-蕲春 / 在上海工作4年
   - title: 上海交通大学
     duration: "2016年6月 - Now"
-    sub: ShangHai
+    sub: ShangHai / 自考
     detail: 计算机及应用
   - title: 上海震旦中等职业学院
     duration: "2011年9月 - 2014年9月"
@@ -47,24 +47,36 @@ main: #简历主要内容，
   # name: "技能"
   content:
   - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    #items: #itmems 可以小块的方式显示
+    #- HTML+CSS
+    #- JavaScript
+    #- MySQL
+    tags:
+    - 熟练度 * 打分 / MAX 5
+    summary: HTML + CSS          **
+    summary: JavaScript          ****
+    summary: Vue                 ***
+    summary: ES-6                **
+    summary: Git + NPM           **
+    summary: Webpack             *
+    summary: MySQL               *
+    
+  - title: 使用/了解
+    summary: Java | Node | Koa | Radis | 
+  - title: IDE
+    summary: Visual Studio Code | IntelliJ IDEA |
 
 - type: experience
   name: 经验
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 前端开发工程师
+    sub: 上海启友网络科技有限公司
+    duration: "2018年3月 - Now"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
+    - 聚合支付
+    summary: 工作总结
+    -（+*） 第一项 -（+*） 第二项 - （+*）第三项
+    open: open
     #可以设置open默认展开
   - title: Job Title
     sub: Your 2nd, Inc.  
