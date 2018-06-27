@@ -44,7 +44,7 @@ main: #简历主要内容，
     detail: 汽车运用与维修
 
 others: #其他列表显示
-- type: skills
+- type: others
   # name: "技能"
   content:
   - title: 编程语言
@@ -54,8 +54,6 @@ others: #其他列表显示
     #- MySQL
     tags: 熟练度 * 打分 / MAX 5
     #others 其他简略内容(列表)
-    others: #其他列表显示
-    - type: others #ID可以为空
     list: 
     - HTML + CSS          ** 
     - JavaScript          **** 
