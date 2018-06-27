@@ -51,7 +51,7 @@ main: #简历主要内容，
     #- HTML+CSS
     #- JavaScript
     #- MySQL
-    tags: 熟练度 * 打分 / MAX 5
+    #tags: 熟练度 * 打分 / MAX 5
     list: 
     - HTML + CSS          ** 
     - JavaScript          **** 
