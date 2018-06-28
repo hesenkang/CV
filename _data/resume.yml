@@ -32,36 +32,29 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 基本信息
     duration: 于2011年来到上海，生活了8年
-    sub: "Age 22"
+    sub: Age 22
     detail: 男 / 1996年 / 未婚 / 籍贯：湖北-蕲春 / 在上海工作4年
   - title: 上海交通大学
-    duration: "2016年6月 - Now"
+    duration: 2016年6月 - Now
     sub: ShangHai / 自考
     detail: 计算机及应用
   - title: 上海震旦中等职业学院
-    duration: "2011年9月 - 2014年9月"
+    duration: 2011年9月 - 2014年9月
     sub: ShangHai
     detail: 汽车运用与维修
 
-others: #其他列表显示
-- type: others
+- type: skills
   # name: "技能"
   content:
   - title: 编程语言
-    #items: #itmems 可以小块的方式显示
-    #- HTML+CSS
-    #- JavaScript
-    #- MySQL
-    tags: 熟练度 * 打分 / MAX 5
-    #others 其他简略内容(列表)
-    list: 
-    - HTML + CSS          ** 
-    - JavaScript          **** 
-    - Vue                 *** 
-    - ES-6                ** 
-    - Git + NPM           ** 
-    - Webpack             * 
-    - MySQL               *
+    items: #itmems 可以小块的方式显示
+    - HTML + CSS
+    - JavaScript
+    - Vue
+    - ES-6
+    - Git + NPM
+    - Webpack
+    - MySQL
   - title: 使用/了解
     summary: Java | Node | Koa | Radis | 
   - title: IDE
@@ -72,28 +65,28 @@ others: #其他列表显示
   content:
   - title: 前端开发工程师
     sub: 上海启友网络科技有限公司
-    duration: "2018年3月 - Now"
+    duration: 2018年3月 - Now
     tags:
     - 聚合支付
     summary: 工作总结
-    detail: Details can be collapsed in Chrome Safari.
+    detail: TODO.
     open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
+  - title: H5前端开发工程师
+    sub: 上海闪杰信息科技技术有限公司.  
+    duration: "2015年6月 - 2016年6月"
     tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - 微信H5
+    summary: 工作总结
+    detail: TODO.
 
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
+  - title: 大强支付
+    duration: 2018年3月 - Now
     detail: 项目和工作介绍，项目总结.
-    sub: 维护者
+    sub: 前端开发
   - title: Project Name
     summary: Projects' introduction or summary
     detail:
@@ -104,16 +97,16 @@ others: #其他列表显示
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '生活'
   content: #选择需要的格式
   - 单行文字
   - title: "加粗:"
     text: "列表项二"
   - title: "兴趣:"
     items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
+    - 动漫
+    - 学习
+    - 科技
   - title: 列表
     list:
     - 第一项
@@ -130,8 +123,8 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+  - text: "Made with &hearts; by hesenkang"
+    href: "https://github.com/hesenkang/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
